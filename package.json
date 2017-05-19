@@ -28,7 +28,8 @@
     "version": "thoughtful changelog -o -a && npm run thought"
   },
   "peerDependencies": {
-    "customize": "^2.0.1"
+    "customize": "^2.0.1",
+    "thought-plugin-jsdoc": "^1.0.0"
   },
   "dependencies": {},
   "devDependencies": {
@@ -44,7 +45,6 @@
     "husky": "^0.13.2",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "thought-plugin-jsdoc": "^1.0.0",
     "thoughtful-release": "^0.3.1",
     "trace-and-clarify-if-possible": "^1.0.0"
   },
