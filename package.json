@@ -1,6 +1,6 @@
 {
   "name": "thought-plugin-thought-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A thought plugin for thought plugins",
   "repository": {
     "type": "git",
