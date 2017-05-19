@@ -1,17 +1,26 @@
 /*!
- * thought-plugin-thought-plugin <https://github.com/nknapp/thought-plugin-thought-plugin>
+ * thought-plugin-jsdoc <https://github.com/nknapp/thought-plugin-jsdoc>
  *
  * Copyright (c) 2017 Nils Knappmeier.
  * Released under the MIT license.
  */
 
-'use strict'
+const path = require('path')
 
-module.exports = thoughtPluginThoughtPlugin
 /**
  * Describe your module here
  * @public
  */
-function thoughtPluginThoughtPlugin () {
-  return "my name is thoughtPluginThoughtPlugin"
+module.exports = function thoughtPluginJsdoc (customize) {
+  return customize
+    .load(require('thought-plugin-jsdoc'))
+    .merge({
+      handlebars: {
+        helpers: require.resolve('./helpers.js'),
+        partials: path.join(__dirname, 'partials'),
+        templates: path.join(__dirname, 'templates')
+      }
+    })
 }
+
+module.exports.package = require('../package')

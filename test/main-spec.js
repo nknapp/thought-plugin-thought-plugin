@@ -13,7 +13,7 @@ chai.use(require('dirty-chai'))
 const expect = chai.expect
 
 describe('thought-plugin-thought-plugin:', function () {
-  it("should be executed", function () {
+  it('should be executed', function () {
     expect(thoughtPluginThoughtPlugin()).to.equal('thoughtPluginThoughtPlugin')
   })
 })
