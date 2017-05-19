@@ -28,10 +28,11 @@
     "version": "thoughtful changelog -o -a && npm run thought"
   },
   "peerDependencies": {
-    "customize": "^2.0.1",
+    "customize": "^2.0.1"
+  },
+  "dependencies": {
     "thought-plugin-jsdoc": "^1.0.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "customize": "^2.0.1",
