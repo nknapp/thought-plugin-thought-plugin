@@ -9,6 +9,10 @@ It generated the documentation that is usually required for thought-plugins:
 * Helpers API
 * Partials-Configuration
 * Generics about installation and usage
+
+
+## Installation
+
 In order to use this plugin for [thought](https://npmjs.com/package/thought),
 first add it to the dev-dependencies of your project
 

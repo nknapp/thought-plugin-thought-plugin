@@ -79,6 +79,8 @@ You can see the plugin in action in [the example-project](examples/example-proje
 #### [installation.md.hbs](src/partials/installation.md.hbs)
 
 ````hbs
+## Installation
+
 In order to use this plugin for {{npm 'thought'}},
 first add it to the dev-dependencies of your project
 
